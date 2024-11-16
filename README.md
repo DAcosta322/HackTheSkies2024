@@ -1,3 +1,4 @@
 # HackTheSkies2024
 
-##BackEnd
+#BackEnd
+Use a database that supports AV1 encoding
