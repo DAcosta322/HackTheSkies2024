@@ -1,3 +1,6 @@
+/*Home Page
+Date LM: 16/11/2024
+By: Daniel Acosta*/
 <template>
     <div class="header">
         <h1 id="title">VULPIN</h1>
