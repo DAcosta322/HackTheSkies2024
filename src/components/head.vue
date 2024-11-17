@@ -27,7 +27,7 @@ export default {
 </script>
 
 
-<style Scoped>
+<style scoped>
     .header{
         background-image: linear-gradient(#87ceeb, #07e6fa);
     }
