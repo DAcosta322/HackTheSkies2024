@@ -36,8 +36,6 @@ By: Daniel Acosta*/
                 <option value="Seafood"></option>
                 <option value="Other"></option>
             </datalist>
-
-
         </div>
     </form>
 </template>

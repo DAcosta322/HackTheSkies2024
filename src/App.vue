@@ -1,4 +1,4 @@
-/*Home Page
+/*App
 Date LM: 16/11/2024
 By: Daniel Acosta*/
 <template>
