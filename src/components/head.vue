@@ -1,5 +1,5 @@
 /*Home Page
-Date LM: 16/11/2024
+Date LM: 17/11/2024
 By: Daniel Acosta*/
 <template>
     <div class="header">
