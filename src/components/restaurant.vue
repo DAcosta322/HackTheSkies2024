@@ -3,10 +3,10 @@ Date LM: 17/11/2024
 By: Daniel Acosta*/
 <template>
     <img v-bind:src="url" width="25vw" height="25vw">
-    <h3 id="name"></h3>
+    <h3 id="name">{{ rName }}</h3>
     <div id="flex">
-        <h3 id="rating"></h3>
-        <h3 id="distance"></h3>
+        <h3 id="rating">{{ rating }}</h3>
+        <h3 id="distance">{{ distance }}</h3>
     </div>
 </template>
 
@@ -23,9 +23,34 @@ export default {
 
 <style lang="css" scoped>
 #name{
+    color: #000;
+    font-family: "Iceland", sans-serif;
+    font-size: 120;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#rating{
+    color: #000;
     font-family: "Iceland", sans-serif;
     font-size: 100;
     font-weight: 300;
     font-style: normal;
+}
+
+#distance{
+    color: #000;
+    font-family: "Iceland", sans-serif;
+    font-size: 100;
+    font-weight: 250;
+    font-style: normal;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
 }
 </style>
